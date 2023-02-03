@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   "homepage": "https://github.com/Magda098/Devops_Group2_Week5_Project#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "mongoose": "^6.9.0",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
